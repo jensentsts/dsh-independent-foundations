@@ -1,9 +1,20 @@
 # Local preparation
 
+## 从 GitHub 直接安装
+
+在 DSH 的「插件 → 安装第三方插件」粘贴以下地址并安装：
+
+```text
+https://github.com/jensentsts/dsh-independent-foundations/archive/refs/heads/main.tar.gz
+```
+
+此版本面向 DSH 0.2.2-rc.1；其他版本请等待对应构建。安装后直接启用；插件内的搜索组件通过包路径加载。
+
+
 > 插件集导航与市场索引：https://github.com/jensentsts/dsh-independent-plugins
 
 
-Before installing this package, run `node prepare.mjs` from this directory. The script writes the local URL of the alias-aware search component into the three shipped preset entries. It may be rerun after moving the package. The checked-in preset entries use the official search component until preparation.
+The search presets use the package export `@local/dsh-independent-foundations/tool-fs-search`; no machine-specific preparation step is required. `node prepare.mjs` checks that the installed bundle contains the three references.
 
 The historical deployment verifier expects generated guard files and a deployment manifest, which are not included in this source snapshot.
 

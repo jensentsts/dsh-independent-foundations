@@ -26,7 +26,7 @@
         config:
           applyPatch: false
       - id: tool-fs-search
-        name: '@deepseek-ai/dsh-tool-fs-search'
+        name: '@local/dsh-independent-foundations/tool-fs-search'
         config:
           sampleOverCapGlobResults: false
       - id: tool-jobs
@@ -151,7 +151,7 @@
         config:
           applyPatch: false
       - id: tool-fs-search
-        name: '@deepseek-ai/dsh-tool-fs-search'
+        name: '@local/dsh-independent-foundations/tool-fs-search'
         config:
           sampleOverCapGlobResults: false
       - id: tool-jobs
@@ -280,7 +280,7 @@
         config:
           applyPatch: false
       - id: tool-fs-search
-        name: '@deepseek-ai/dsh-tool-fs-search'
+        name: '@local/dsh-independent-foundations/tool-fs-search'
         config:
           sampleOverCapGlobResults: false
       - id: tool-jobs
